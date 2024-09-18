@@ -648,7 +648,7 @@ class HiveEngineSpec(PrestoEngineSpec):
         :returns: The view names
         """
 
-        sql = "SHOW VIEWS"
+        sql = "SHOW TABLES"
 
         if schema:
             sql += f" IN `{schema}`"
